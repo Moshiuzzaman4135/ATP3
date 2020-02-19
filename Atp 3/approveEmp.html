@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bo.otstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+</head>
+
+<body>
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Take Care</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+             <li>
+                <a href="master.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="profile.html">My Profile</a>
+            </li>
+            <li>
+                <a href="approveEmp.html">Aprrove</a>
+            </li>
+            <li>
+                <a href="joblist.html">Job List</a>
+            </li>
+            <li>
+                <a href="chat.html">Messege</a>
+            </li>
+            <li>
+                <a href="forum.html">Forum</a>
+            </li>
+            <li>
+                <a href="#">Define</a>
+            </li>
+            <li>
+                <a href="#">Define</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">    	
+    		<nav class="navbar navbar-light bg-light">
+              <span class="navbar-brand mb-0 h1">Welcome to servicepoint , USER</span>
+              <div class="nav navbar-nav navbar-right">
+               <a href="login.html" class="navbar-brand"><strong>Logout</strong></a>
+            </div>
+            </nav>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Registration No</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Service</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>                  
+                  <td>E-4001</td>
+                  <td>Mark</td>
+                  <td>Electrician</td>
+                  <td><button type="button" class="btn btn-success" >Approve</button><button type="button" class="btn btn-danger" >Reject</button></button><button type="button" class="btn btn-link" onclick="window.location.href='empProfile.html'">Details</button></td>
+                </tr>
+
+                <tr>                  
+                  <td>P-4003</td>
+                  <td>Peter</td>
+                  <td>Plumber</td>
+                  <td><button type="button" class="btn btn-success" >Approve</button><button type="button" class="btn btn-danger" >Reject</button></button><button type="button" class="btn btn-link" onclick="window.location.href='empProfile.html'">Details</button></td>
+                </tr>
+                
+              </tbody>
+            </table>
+                
+
+</div>
+</body>
+</html>
+
+

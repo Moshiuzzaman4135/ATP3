@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bo.otstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+</head>
+
+<body>
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Take Care</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+             <li>
+                <a href="master.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="profile.html">My Profile</a>
+            </li>
+            <li>
+                <a href="approveEmp.html">Aprrove</a>
+            </li>
+            <li>
+                <a href="joblist.html">Job List</a>
+            </li>
+            <li>
+                <a href="chat.html">Messege</a>
+            </li>
+            <li>
+                <a href="forum.html">Forum</a>
+            </li>
+            <li>
+                <a href="#">Define</a>
+            </li>
+            <li>
+                <a href="#">Define</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">    	
+    		<nav class="navbar navbar-light bg-light">
+              <span class="navbar-brand mb-0 h1">Welcome to servicepoint , USER</span>
+              <div class="nav navbar-nav navbar-right">
+               <a href="login.html" class="navbar-brand"><strong>Logout</strong></a>
+            </div>
+        </nav>
+            <div class="col-sm-2 col-md-2">
+            <img src="man.jpg" />
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <blockquote>
+                    <p>Bruce Wayne</p> <small><cite title="Source Title">Gotham, United Kingdom  <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+                </blockquote>
+                <p> <i class="glyphicon glyphicon-envelope"></i> masterwayne@batman.com
+                    <br
+                    /> <i class="glyphicon glyphicon-globe"></i> www.bootsnipp.com
+                    <br /> <i class="glyphicon glyphicon-gift"></i> January 30, 1974</p>
+                    <button type="button" class="btn btn-success mr-2" >   Approve  </button><button type="button" class="btn btn-danger mr-2" >   Reject   </button></button>
+                    <button type="button" class="btn btn-primary mr-2" onclick="openForm()">   Messege   </button></button>
+            </div>
+
+            <button class="open-button" onclick="openForm()">Chat</button>
+
+            <div class="chat-popup" id="myForm">
+              <form action="" class="form-container">
+                <h1>Chat</h1>
+
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+
+            <script>
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+
+            function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+            }            
+            </script>
+            
+              
+                
+
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bo.otstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+</head>
+
+<body>
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Take Care</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+             <li>
+                <a href="master.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="profile.html">My Profile</a>
+            </li>
+            <li>
+                <a href="approveEmp.html">Aprrove</a>
+            </li>
+            <li>
+                <a href="joblist.html">Job List</a>
+            </li>
+            <li>
+                <a href="chat.html">Messege</a>
+            </li>
+            <li>
+                <a href="forum.html">Forum</a>
+            </li>
+            <li>
+                <a href="#">Define</a>
+            </li>
+            <li>
+                <a href="#">Define</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">    	
+    		<nav class="navbar navbar-light bg-light">
+              <span class="navbar-brand mb-0 h1">Welcome to servicepoint , USER</span>
+              <div class="nav navbar-nav navbar-right">
+               <a href="login.html" class="navbar-brand"><strong>Logout</strong></a>
+            </div>
+        </nav>    
+
+            <div class="col-sm-4 col-md-4">                    
+                Select image to upload:
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Upload Image" name="submit">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Address</label>
+                    <input type="text" class="form-control" id="asd" placeholder="Address">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Date of Birth:</label>
+                    <input type="date" class="form-control" id="date" placeholder="Date">
+                  </div>
+                  
+                  <button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">Save</button>
+            </div>
+            
+              
+                
+
+</div>
+</body>
+</html>
+
+
